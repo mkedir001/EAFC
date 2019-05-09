@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    height: 30px;
+    padding-left: 5px;
+    transition: 0.25s;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    height: 100%;
+    margin-bottom: 100px;
+    background-color: rgb(247, 247, 241);
+}

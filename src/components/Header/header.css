@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 326px;
+    border-bottom: solid =grey 2px;
+    background-color: rgb(254, 255, 235);
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    /* margin-left: 10px; */
+}
+
+.boat {
+    width: 70%;
+}
+.boats {
+    width: 40%;
+}
